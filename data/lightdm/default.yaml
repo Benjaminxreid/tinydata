@@ -1,0 +1,13 @@
+---
+  lightdm::settings:
+    package_name: 'lightdm'
+    service_name: 'lightdm'
+    config_file_path: '/etc/lightdm/lightdm.conf'
+    config_dir_path: '/etc/lightdm'
+    conf_dir_path: '/etc/lightdm/lightdm.conf.d/'
+    pid_file_path: '/var/run/lightdm.pid'
+    log_file_path: '/var/log/lightdm/lightdm.log'
+    log_dir_path: '/var/log/lightdm'
+    process_name: 'lightdm'
+    process_user: 'lightdm'
+    process_group: 'lightdm'
