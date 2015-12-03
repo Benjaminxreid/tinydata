@@ -1,0 +1,10 @@
+---
+  ldap-utils::settings:
+    package_name: 'ldap-utils'
+    service_name: 'ldap-utils'
+    config_file_path: '/etc/ldap-utils/ldap-utils.conf'
+    config_dir_path: '/etc/ldap-utils'
+    pid_file_path: '/var/run/ldap-utils.pid'
+    process_name: 'ldap-utils'
+    process_user: 'ldap-utils'
+    process_group: 'ldap-utils'
